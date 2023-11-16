@@ -1,0 +1,133 @@
+@font-face{
+    font-family: Raleway-Regular;
+    src: url(/fonts/static/Raleway-Regular.ttf);
+}
+@font-face {
+    font-family: Raleway-Italic;
+    src: url(/fonts/static/Raleway-Italic.ttf);
+}
+@font-face {
+    font-family: Raleway-Bold;
+    src: url(/fonts/static/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: Raleway-lightitalic;
+    src: url(/fonts/static/Raleway-LightItalic.ttf);
+}
+
+body{
+    background-image: url(../style/fondo.jpg);
+    background-size: cover; 
+    width:100%;
+    font-family: 'Raleway', sans-serif;
+
+}
+h1{
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: bisque;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+    /* con la linea de abajo solamente se edita el fondo, color y ultimo argumento opacidad */
+    background-color: rgba(111, 115, 117, 0.8.);
+    margin: 15px;
+    /* text-shadow: 2px 2px 5px rgb(172, 193, 8); */
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(251, 255, 0), 0 0 5px rgb(139, 127, 0);
+    
+}
+h2{
+    color: bisque;
+    font-style: normal;
+    text-align: center;
+    text-decoration:underline bisque ;
+    padding: 15px;
+    Font-family: Raleway-Italic;
+    
+    
+
+}
+h3{
+    font-family:Raleway-lightitalic;
+    padding: 10px;
+    
+}
+p{
+    padding: 10px; 
+}
+.Menu{
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    
+}
+.plato1{
+    background-color: rgba(3, 3, 3, 0.55);
+    margin-top: 3px;
+    margin-left: auto;
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    color: bisque;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(84, 81, 81, 0.318);
+}
+.plato2{
+    margin-top: 3;
+    margin-left: auto;
+    background-color: rgba(3, 3, 3, 0.55);
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    color:bisque ;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(84, 81, 81, 0.318);
+}
+.plato3{
+    margin-right: auto;
+    color: bisque;
+    margin-top: 3px;
+    margin-left: auto;
+    background-color: rgba(0, 0, 0, 0.401);
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgba(84, 81, 81, 0.318);
+}
+.boton{
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    
+}
+.button1 {
+    margin-right: 15px;
+    padding: auto;
+    justify-content: center;
+    background-color: black; 
+    color: bisque; 
+    padding: 10px 20px; 
+    border: 1px solid bisque; 
+    border-radius: 5px; 
+    text-align: center; 
+    font-size: 16px; 
+}
+
+.button1:hover {
+    background-color: gold;
+    color: black; 
+}
+
+.label{
+    color: gold;
+    text-align: center;
+    margin-left: 150px;
+}
